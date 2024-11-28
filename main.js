@@ -2,4 +2,6 @@ import { CreateMaterialDesignButton } from "./module/CreateMaterialDesignButton.
 
 const body = document.querySelector("body");
 
-CreateMaterialDesignButton('ボタン',() => console.log('hoge'));
+const button = CreateMaterialDesignButton('ボタン',() => console.log('hoge'));
+
+body.appendChild(button);
